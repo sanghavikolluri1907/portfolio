@@ -1,0 +1,135 @@
+body{
+    background-color:#e7fafc;
+    padding: 20px;
+}
+h1{
+    color:#222;
+    text-align: center;
+    font-size:40px ;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    margin:0 18px ;
+    padding:8px;
+    font-weight: bold;
+    color:blue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+hr{
+    margin:30px auto;
+    width: 800px;
+    border-top: 2px solid;
+}
+section{
+    background-color:white;
+    width:800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius:15px;
+    box-shadow:0 4px 12px skyblue;
+}
+figure{
+    text-align: center;
+    font-size: 20px;
+
+}
+figure img{
+    border-radius:50% ;
+    border:3px solid brown;
+}
+section h2{
+    padding-bottom:10px ;
+}
+article{
+    background: color #e7fafc; 
+    padding: 20px;
+}
+h3{
+    font-size: 40px;
+}
+details{
+    margin-top: 3px;
+}
+summary{
+    font-size: 20px;
+    font-weight: bold;
+}
+article{
+    box-shadow: 0 3px 12px lightseagreen;
+    border-left: 4px solid voilet;
+    border-radius: 20%;
+    margin-top: 60px;
+    transition: transform 0.8s;
+}
+article:hover{
+transform: translateX(5px);
+}
+a{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:aqua;
+    color:whitesmoke;
+}
+h1:hover{
+    text-decoration: underline;
+}
+li{
+    background-color:lightcyan;
+    border-radius: 5px;
+    padding: 10px;
+    margin:20px 0;
+    text-align: left;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+}
+ol{
+    list-style-type: none;
+}
+li:hover{
+    background-color:lightslategray;
+    color:aliceblue;;;
+}
+span{
+    text-decoration: underline ;
+    font-size: 20px ;
+    font-weight: bold;
+}
+form{
+    text-align: center;
+
+}
+
+input,textarea{
+    width:100%;
+    padding: 5px;
+    
+}
+form{
+    font-size: 15px;
+}
+button{
+    margin-left: 15px;
+    padding: 10px;
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover{
+    transition: transform 0.5s;
+}
+button:hover{
+    background-color: aqua;
+    color: #e7fafc;
+    transform: translateX(5px);
+}
